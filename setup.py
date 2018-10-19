@@ -1,8 +1,8 @@
 import os
 from setuptools import setup
 
-f = open(os.path.join(os.path.dirname(__file__), 'README.md'))
-readme = f.read(encoding='utf-8')
+f = open(os.path.join(os.path.dirname(__file__), 'README.md'), encoding='utf-8')
+readme = f.read()
 f.close()
 
 setup(
